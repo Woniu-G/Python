@@ -1,0 +1,19 @@
+By python version 3, they disabled some feature command that work in version 2
+First, lets go with a working hello world
+>>> print("Hello World!")
+Hello World!
+
+However, if we did this, which was ok back in version2
+>>> print"Hello World"
+SyntaxError: invalid syntax
+
+Now, they aren't like php, they are strict,c++ command would not work
+>>> printf("1")
+Traceback (most recent call last):
+  File "<pyshell#2>", line 1, in <module>
+    printf("1")
+NameError: name 'printf' is not defined
+
+So here we go!
+>>> print("hello")
+hello
